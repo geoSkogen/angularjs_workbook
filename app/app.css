@@ -1,0 +1,109 @@
+body {
+    font-family:  Arial, sans-serif;
+    position:  relative;
+}
+
+div.flexOuterLeft {
+    display:  flex;
+    flex-flow:  row wrap;
+    justify-content: flex-start;
+}
+
+div.flexOuterCenter {
+    display:  flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+}
+
+div.flexInner {
+    flex:  1 1 20%;
+    max-width: 25%;
+    padding:  1em;
+} 
+
+div.columnar {
+    display:  flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 60%;
+}
+
+ul {
+    list-style-type:  none;
+}
+
+li {
+    border:  1px solid lightsteelblue;
+    border-radius:  2px;
+    margin:  0.5em;
+    padding:  0.5em;
+    float:  left;
+    max-width: 80%;
+}
+
+li.liOuter {
+    display:  flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+div.liInner {
+    flex: 1 1 40%;
+    padding:  0.25em;
+    margin:  0.25em;
+}
+
+input {
+    padding:  0.2em;
+    margin:  0.75em;
+}
+
+img.thumb {
+    height:  75px;
+    width:  75px;
+}
+
+p.artist {
+    font-family:  'Trebuchet MS', sans-serif;
+    margin: 0.2em 0 0.2em 0;
+    text-align:  center;
+    midth: 3em;
+}
+
+span.info {
+    font-size: 11px;
+}
+
+p.infoC {
+    font-size: 12px;
+    text-align:  center;
+    margin: 0;
+    padding:  0;
+}
+
+a:link {
+    text-decoration: none;
+    color:  cornflowerblue;
+}
+
+span.linky {
+    font-size:  17px;
+    margin-top: 0.2em;   
+}
+
+a.titleLink {
+    text-align:  center;
+}
+
+
+div.pictureFrame {
+    margin-top: 10%;
+    border:  1px solid lightsteelblue;
+    border-radius:  2px;
+    padding:  0 0.8em 0.8em 0.8em;
+}
+
+h3 {
+   text-align: center;
+}
+

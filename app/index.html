@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--this doesn't work and I can't figure out why-->
+<!--UPDATE: see below . . . angular source script vs. CDN-->
+<html  ng-app="listCompApp" lang="en">
+
+<head>
+
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
+<title>
+</title>
+
+<link rel="stylesheet" href="app.css"/>
+<!--<script
+  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+</script>-->
+  <script src="bower_components/angular/angular.js">
+  </script>
+  <script src="bower_components/angular-route/angular-route.js">
+  </script>
+  <script src="app.module.js">
+  </script>
+  <script src="app.config.js">
+  </script>
+  <script src="album-list/album-list.module.js">
+  </script>
+  <script src="album-list/album-list.component.js">
+  </script>
+  <script src="album-details/album-details.module.js">
+  </script>
+  <script src="album-details/album-details.component.js">
+  </script>
+
+
+</head>
+
+<body>
+    <div ng-view></div>
+  <p id="testMe"></p>
+</body>
+
+
+</html>
