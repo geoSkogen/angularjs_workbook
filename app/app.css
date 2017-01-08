@@ -47,7 +47,6 @@ ul li {
     border-radius:  2px;
     margin:  0.5em;
     padding:  0.5em;
-    /*float:  left;*/
     max-width: 80%;
 }
 
@@ -55,7 +54,6 @@ ul li.liOuter {
     display:  flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    /*display: inline;*/
 }
 
 div.liInner {

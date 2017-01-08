@@ -13,8 +13,8 @@
    <!-- <div class="columnar"> -->
     <ul>
  <!--$ctrl is the default alias of this component's controller instance-->
-      <li class="liOuter"ng-repeat="album in $ctrl.albums | filter: $ctrl.query | orderBy: $ctrl.orderSel">
-        <div class="liInner">
+      <li class="liOuter" ng-repeat="album in $ctrl.albums | filter: $ctrl.query | orderBy: $ctrl.orderSel">
+       <div class="liInner">
           <a href="#!/albums/{{ album.albumId }}" class="thumbLink">
             <img ng-src="{{ album.imgUrl }}" alt="{{ album.title }}" class="thumb"/><br/>
           </a>
