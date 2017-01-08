@@ -1,0 +1,17 @@
+{
+  "albumId" : "choirs-of-the-eye",
+  "artist" : "Kayo Dot",
+  "images" : [
+    "images/kayo_dotCE.jpg"
+  ],
+  "label" : "Tzadik",
+  "title" : "Choirs of the Eye",
+  "trackList" : [
+    "1. Marathon",
+    "2. A Pitcher of Summer",
+    "3. The Manifold Curiosity",
+    "4. Wayfarer",
+    "5. The Antique"
+  ],
+  "year" : 2003  
+}

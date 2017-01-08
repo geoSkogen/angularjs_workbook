@@ -1,0 +1,19 @@
+{
+  "albumId" : "nursery-cryme",
+  "artist" : "Genesis",
+  "images" : [
+    "images/genesisNC.jpeg"
+  ],
+  "label" : "Charisma",
+  "trackList" : [
+    "1. The Musical Box",
+    "2. For Absent Friends",
+    "3. Return of the Giant Hogweed",
+    "4. Seven Stones",
+    "5. Harold the Barrel",
+    "6. Harlequin",
+    "7. The Fountain of Salmacis"
+  ],
+  "title" : "Nursery Cryme",
+  "year" : 1971
+}

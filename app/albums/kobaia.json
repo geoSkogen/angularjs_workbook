@@ -1,0 +1,25 @@
+{ "albumId" : "kobaia",
+  "artist" : "Magma",
+  "images" : [
+    "images/magmaK.jpg"
+  ],
+  "label" : "Phillips",
+  "trackList" : [
+    "side one",
+    "1. Kobaia",
+    "2. Aina",
+    "3. Malaria",
+    "side two",
+    "1. Sohia",
+    "2.Sckxyss",
+    "3. Aurae",
+    "side three",
+    "1. Thaud Zaia",
+    "2. Nau Ektila",
+    "side four",
+    "1. Stoah",
+    "2. Muh"
+  ],
+  "title" : "Kobaia",
+  "year" : 1970
+}

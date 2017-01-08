@@ -1,0 +1,21 @@
+{
+  "albumId" : "sad-wings-of-destiny",
+  "artist" : "Judas Priest",
+  "images" : [
+    "images/judas_priestSWD.jpg"
+  ],
+  "label" : "Gull",
+  "trackList" : [
+    "1. Prelude",
+    "2. Tyrant",
+    "3. Genocide",
+    "4. Epitaph",
+    "5. Island of Domination",
+    "6. Victim of Changes",
+    "7. The Ripper",
+    "8. Dreamer Deceiver",
+    "9. Deceiver"
+  ],
+  "title" : "Sad Wings of Destiny",
+  "year" : 1976
+}

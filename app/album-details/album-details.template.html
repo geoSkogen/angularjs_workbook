@@ -1,0 +1,23 @@
+<div class="flexOuterLeft">
+  <div class="pictureFrameBig">
+    <img ng-src="{{ $ctrl.album.images[0] }}" class="album"/>
+  </div>
+  <div class="infoFrameBig">
+    <div class="big">{{ $ctrl.album.title }}</div>
+    <hr/>
+    <div class="flexOuterCenterRel">
+      <div class="albumInfo">{{ $ctrl.album.artist }}</div>
+      <div class="albumInfo">{{ $ctrl.album.year }}</div>
+      <div class="albumInfo">{{ $ctrl.album.label }}</div>
+      <div class="footer">
+        <div class="flexOuterCenter"><a href="#!/albums"><b>albums</b></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="trackListFrame">
+    <div class="medium">track list</div>
+    <ul ng-repeat="track in $ctrl.album.trackList" class="trackList">
+      <li class="trackListItem">{{ track }} </li>
+    </ul>
+  </div>
+</div>

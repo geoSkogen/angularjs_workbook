@@ -1,0 +1,23 @@
+{
+  "albumId" : "in-glorious-times",
+  "artist" : "Sleepytime Gorilla Museum",
+  "images" : [
+    "images/sleepytime_gorilla_museumIGT.jpg"
+  ],
+  "label" : "The End",
+  "title" : "In Glorious Times",
+  "trackList" : [
+    "1. The Companions",
+    "2. Helpless Corpses Enactment",
+    "3. Puppet Show",
+    "4. Formicary",
+    "5. Angle of Repose",
+    "6. Ossuary",
+    "7. The Salt Crown",
+    "8. The Only Dance",
+    "9. The Greenless Wreath",
+    "10. The Widening Eye",
+    "11. The Putrid Refrain"
+  ],
+  "year" : 2007
+}

@@ -1,0 +1,19 @@
+{ "albumId" : "nattens-madrigal",
+  "artist" : "Ulver",
+  "images" : [
+    "images/ulverNM.jpg"
+  ],
+  "label" : "Century Black",
+  "trackList" : [
+    "1. Hymn I: Of Wolf and Fear",
+    "2. Hymn II: Of Wolf and the Devil",
+    "3. Hymn III: Of Wolf and Hatred",
+    "4. Hymn IV: Of Wolf and Man",
+    "5. Hymn V: Of Wolf and the Moon",
+    "6. Hymn VI: Of Wolf and Passion",
+    "7. Hymn VII: Of Wolf and Destiny",
+    "8. Hymn VIII: Of Wolf and the Night"
+  ],
+  "title" : "Nattens Madrigal",
+  "year" : 1997
+}

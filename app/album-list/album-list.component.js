@@ -1,13 +1,7 @@
 
 angular.module("albumList").component('albumList', {
   templateUrl: 'album-list/album-list.template.html',
-
-    //OK, WHY don't the JSON data show up? Refer to get/httpControl.js for
-    //a successful application with the same function---differences, uses a .php
-    //file instead of a .json file, and passes $scope to function call, note:
-    //doesn't, make a difference . . . what's up?
-
-    controller: ['$http', function albumListController($http) {
+  controller: ['$http', function albumListController($http) {
         var self = this;
         //self.orderSel = "year";
         $http.get('albums/albums.json').then(function (response) {
@@ -20,6 +14,8 @@ angular.module("albumList").component('albumList', {
 
     //this adds data to an instance of controller rather than to a scope;
     //this is what's known as an isolate scope
+    //put the data in a JSON file
+    //don't do this:
   /*  controller: function albumListController() {
         this.albums = [
         { artist: "Upsilon Acrux", title: "Radian Futura", year: 2009, label: "Cuneiform", imgUrl: "images/upsilon_acruxRF.jpg", albumId: "radian-futura" },

@@ -1,0 +1,21 @@
+{ "albumId" : "individual-thought-patterns",
+  "artist" : "Death",
+  "images" : [
+    "images/deathITP.jpg"
+  ],
+  "label" : "Relativity",
+  "trackList" : [
+    "1. Overactive Imagination",
+    "2. In Human Form",
+    "3. Jealousy",
+    "4. Trapped in a Corner",
+    "5. Nothing is Everything",
+    "6. Everything is Nothing",
+    "7. Individual Thought Patterns",
+    "8. Destiny",
+    "9. Out of Touch",
+    "10. The Philosopher"
+  ],
+  "title" : "Individual Thought Patterns",
+  "year" : 1993
+}

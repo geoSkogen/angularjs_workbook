@@ -1,0 +1,23 @@
+{
+  "albumId" : "killers",
+  "artist" : "Iron Maiden",
+  "images" : [
+    "images/iron_maidenK.jpg"
+    ],
+  "trackList" : [
+    "1. The Ides of March",
+    "2. Wrathchild",
+    "3. Murders in the Rue Morgue",
+    "4. Another Life",
+    "5. Ghengis Khan",
+    "6. Innocent Exile",
+    "7. Killers",
+    "8. Twilight Zone",
+    "9. Prodigal Son",
+    "10. Purgatory",
+    "11. Drifter"
+  ],
+  "label" : "Harvest",
+  "title" : "Killers",
+  "year" : 1981
+}

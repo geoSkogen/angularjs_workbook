@@ -9,17 +9,27 @@ div.flexOuterLeft {
     justify-content: flex-start;
 }
 
-div.flexOuterCenter {
+div.flexOuterCenter,
+div.flexOuterCenterRel {
     display:  flex;
     flex-flow:  row wrap;
     justify-content: center;
+}
+
+div.flexOuterCenterRel {
+  position: relative;
+}
+
+div.footer {
+   position: fixed;
+   bottom: 2.2%;
 }
 
 div.flexInner {
     flex:  1 1 20%;
     max-width: 25%;
     padding:  1em;
-} 
+}
 
 div.columnar {
     display:  flex;
@@ -29,22 +39,23 @@ div.columnar {
 }
 
 ul {
-    list-style-type:  none;
+    list-style-type: none;
 }
 
-li {
+ul li {
     border:  1px solid lightsteelblue;
     border-radius:  2px;
     margin:  0.5em;
     padding:  0.5em;
-    float:  left;
+    /*float:  left;*/
     max-width: 80%;
 }
 
-li.liOuter {
+ul li.liOuter {
     display:  flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    /*display: inline;*/
 }
 
 div.liInner {
@@ -63,11 +74,16 @@ img.thumb {
     width:  75px;
 }
 
+img.album {
+    height: 250px;
+    width: 250px;
+}
+
 p.artist {
     font-family:  'Trebuchet MS', sans-serif;
     margin: 0.2em 0 0.2em 0;
     text-align:  center;
-    midth: 3em;
+    width: 3em;
 }
 
 span.info {
@@ -81,6 +97,12 @@ p.infoC {
     padding:  0;
 }
 
+div.albumInfo {
+    padding: 0.75em;
+    font-family:  'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
 a:link {
     text-decoration: none;
     color:  cornflowerblue;
@@ -88,13 +110,12 @@ a:link {
 
 span.linky {
     font-size:  17px;
-    margin-top: 0.2em;   
+    margin-top: 0.2em;
 }
 
 a.titleLink {
     text-align:  center;
 }
-
 
 div.pictureFrame {
     margin-top: 10%;
@@ -103,7 +124,57 @@ div.pictureFrame {
     padding:  0 0.8em 0.8em 0.8em;
 }
 
+div.pictureFrameBig,
+div.trackListFrame {
+    margin: 3% 0 3% 3%;
+    border:  1px solid lightsteelblue;
+    border-radius:  2px;
+    padding:  1em;
+}
+
+div.pictureFrameBig {
+  height: 250px;
+}
+
+div.trackListFrame {
+    margin: 3% 3% 3% 0;
+    max-width: 25%;
+}
+
+ul.trackList {
+  padding: 1em 1em 1em 2em;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+ul li.trackListItem {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border: none;
+}
+
+div.infoFrameBig {
+    margin: 3% 0 3% 0;
+    padding: 1em 0 1em 0;
+}
+
+div.big {
+    font-size: 32px;
+    font-family: 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.25em;
+    padding: 0 2em 0 2em;
+}
+
+div.medium {
+    font-size: 22px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    /*padding: 0 2em 0 2em;*/
+}
+
+hr {
+  color: lightsteelblue;
+}
+
 h3 {
    text-align: center;
 }
-
