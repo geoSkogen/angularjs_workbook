@@ -3,9 +3,9 @@
   "availability" : false,
   "images" : [
     "images/comusFU.jpg",
-    "images/comusFU.jpgr",
-    "images/comusFU.jpgrr",
-    "images/comusFU.jpgrrr"
+    "images/comusFUr.jpg",
+    "images/comusFUrr.jpg",
+    "images/comusFUrrr.jpg"
   ],
   "label" : "Dawn",
   "trackList" : [

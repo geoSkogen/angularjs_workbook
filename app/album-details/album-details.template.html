@@ -1,6 +1,6 @@
 <div class="flexOuterLeft">
   <div class="pictureFrameBig">
-    <img ng-src="{{ $ctrl.album.images[0] }}" class="album"/>
+    <img ng-src="{{ $ctrl.mainImageUrl }}" class="album"/>
   </div>
   <div class="infoFrameBig">
     <div class="big">{{ $ctrl.album.title }}</div>
@@ -21,7 +21,7 @@
     <div class="flexOuterCenterPadRight">
       <ul ng-repeat="image in $ctrl.album.images">
         <li class="pictureFrameSmall">
-          <img ng-src="{{ image }}" class="thumb"/>
+          <img ng-src="{{ image }}" ng-click="$ctrl.setImage(image)" class="thumb"/>
         </li>
       </ul>
     </div>
