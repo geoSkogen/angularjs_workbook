@@ -1,8 +1,13 @@
 {
   "albumId" : "killers",
   "artist" : "Iron Maiden",
+  "availability" : true,
   "images" : [
-    "images/iron_maidenK.jpg"
+    "images/iron_maidenK.jpg",
+    "images/iron_maidenKr.jpg",
+    "images/iron_maidenKrr.jpg",
+    "images/iron_maidenKrrr.jpg"
+
     ],
   "trackList" : [
     "1. The Ides of March",

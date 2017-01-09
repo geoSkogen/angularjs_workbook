@@ -1,8 +1,12 @@
 {
   "albumId" : "choirs-of-the-eye",
   "artist" : "Kayo Dot",
+  "availability" : true,
   "images" : [
-    "images/kayo_dotCE.jpg"
+    "images/kayo_dotCE.jpg",
+    "images/kayo_dotCEr.jpg",
+    "images/kayo_dotCErr.jpg",
+    "images/kayo_dotCErrr.jpg"
   ],
   "label" : "Tzadik",
   "title" : "Choirs of the Eye",
@@ -13,5 +17,5 @@
     "4. Wayfarer",
     "5. The Antique"
   ],
-  "year" : 2003  
+  "year" : 2003
 }

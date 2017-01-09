@@ -1,7 +1,11 @@
 { "albumId" : "kobaia",
   "artist" : "Magma",
+  "availability" : false,
   "images" : [
-    "images/magmaK.jpg"
+    "images/magmaK.jpg",
+    "images/magmaKr.jpg",
+    "images/magmaKrr.jpg",
+    "images/magmaKrrr.jpg"
   ],
   "label" : "Phillips",
   "trackList" : [

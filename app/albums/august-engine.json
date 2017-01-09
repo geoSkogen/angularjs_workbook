@@ -1,8 +1,12 @@
 {
   "albumId" : "august-engine",
   "artist" : "Hammers of Misfortune",
+  "availability" : false,
   "images" : [
-    "images/hammers_of_misfortuneAE.jpg"
+    "images/hammers_of_misfortuneAE.jpg",
+    "images/hammers_of_misfortuneAE.jpgr",
+    "images/hammers_of_misfortuneAE.jpgrr",
+    "images/hammers_of_misfortuneAE.jpgrrr"
   ],
   "label" : "Cruz del Sur",
   "trackList": [

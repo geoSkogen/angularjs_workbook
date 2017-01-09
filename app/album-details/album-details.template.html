@@ -13,6 +13,18 @@
         <div class="flexOuterCenter"><a href="#!/albums"><b>albums</b></a></div>
       </div>
     </div>
+    <div class="flexOuterCenter">
+      <div class="albumInfo">
+        available&nbsp;{{ $ctrl.album.availability | checkmark }}
+      </div>
+    </div>
+    <div class="flexOuterCenterPadRight">
+      <ul ng-repeat="image in $ctrl.album.images">
+        <li class="pictureFrameSmall">
+          <img ng-src="{{ image }}" class="thumb"/>
+        </li>
+      </ul>
+    </div>
   </div>
   <div class="trackListFrame">
     <div class="medium">track list</div>

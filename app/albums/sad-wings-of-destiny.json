@@ -1,8 +1,12 @@
 {
   "albumId" : "sad-wings-of-destiny",
   "artist" : "Judas Priest",
+  "availability" : true,
   "images" : [
-    "images/judas_priestSWD.jpg"
+    "images/judas_priestSWD.jpg",
+    "images/judas_priestSWDr.jpg",
+    "images/judas_priestSWDrr.jpg",
+    "images/judas_priestSWDrrr.jpg"
   ],
   "label" : "Gull",
   "trackList" : [

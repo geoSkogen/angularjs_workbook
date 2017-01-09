@@ -1,7 +1,11 @@
 { "albumId" : "individual-thought-patterns",
   "artist" : "Death",
+  "availability" : true,
   "images" : [
-    "images/deathITP.jpg"
+    "images/deathITP.jpg",
+    "images/deathITPr.jpg",
+    "images/deathITPrr.jpg",
+    "images/deathITPrrr.jpg"
   ],
   "label" : "Relativity",
   "trackList" : [

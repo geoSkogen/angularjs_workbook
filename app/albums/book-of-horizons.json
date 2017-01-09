@@ -1,8 +1,12 @@
 {
   "albumId" : "book-of-horizons",
   "artist" : "Secret Chiefs 3",
+  "availability" : true,
   "images" : [
-    "images/secret_chiefs_3BH.jpg"
+    "images/secret_chiefs_3BH.jpg",
+    "images/secret_chiefs_3BHr.jpg",
+    "images/secret_chiefs_3BHrr.jpg",
+    "images/secret_chiefs_3BHrrr.jpg"
   ],
   "label" : "Web of Mimicry",
   "title" : "Book of Horizons",
@@ -22,5 +26,5 @@
     "13. Anthropomorphosis: Boxleitner",
     "14. Welcome to the Theatron Animatronique"
   ],
-  "year" : 2004  
+  "year" : 2004
 }

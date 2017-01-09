@@ -1,8 +1,12 @@
 {
   "albumId" : "nursery-cryme",
   "artist" : "Genesis",
+  "availability" : true,
   "images" : [
-    "images/genesisNC.jpeg"
+    "images/genesisNC.jpeg",
+    "images/genesisNCr.jpg",
+    "images/genesisNCrr.jpg",
+    "images/genesisNCrrr.jpg"
   ],
   "label" : "Charisma",
   "trackList" : [

@@ -1,7 +1,11 @@
 { "albumId" : "nattens-madrigal",
   "artist" : "Ulver",
+  "availability" : false,
   "images" : [
-    "images/ulverNM.jpg"
+    "images/ulverNM.jpg",
+    "images/ulverNMr.jpg",
+    "images/ulverNMrr.jpg",
+    "images/ulverNMrrr.jpg"
   ],
   "label" : "Century Black",
   "trackList" : [

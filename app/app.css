@@ -9,8 +9,15 @@ div.flexOuterLeft {
     justify-content: flex-start;
 }
 
+div.flexOuterSpace {
+    display:  flex;
+    flex-flow:  row wrap;
+    justify-content: space-around;
+}
+
 div.flexOuterCenter,
-div.flexOuterCenterRel {
+div.flexOuterCenterRel,
+div.flexOuterCenterPadRight {
     display:  flex;
     flex-flow:  row wrap;
     justify-content: center;
@@ -20,14 +27,24 @@ div.flexOuterCenterRel {
   position: relative;
 }
 
+div.flexOuterCenterPadRight {
+  padding: 0 2em 0 0;
+}
+
 div.footer {
    position: fixed;
    bottom: 2.2%;
 }
 
-div.flexInner {
+div.flexInnerMinor {
     flex:  1 1 20%;
-    max-width: 25%;
+    max-width: 20%;
+    padding:  2em 0 0 2em;
+}
+
+div.flexInnerMajor {
+    flex:  1 1 20%;
+    max-width: 80%;
     padding:  1em;
 }
 
@@ -54,6 +71,9 @@ ul li.liOuter {
     display:  flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    height: 9em;
+    width: 14em;
+    /*padding:  0.5em  0.5em  1em 0.5em;*/
 }
 
 div.liInner {
@@ -132,6 +152,12 @@ div.trackListFrame {
 
 div.pictureFrameBig {
   height: 250px;
+}
+
+li.pictureFrameSmall {
+  border: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 div.trackListFrame {

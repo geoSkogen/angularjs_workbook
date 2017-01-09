@@ -1,8 +1,12 @@
 {
   "albumId" : "in-glorious-times",
   "artist" : "Sleepytime Gorilla Museum",
+  "availability" : true,
   "images" : [
-    "images/sleepytime_gorilla_museumIGT.jpg"
+    "images/sleepytime_gorilla_museumIGT.jpg",
+    "images/sleepytime_gorilla_museumIGTr.jpg",
+    "images/sleepytime_gorilla_museumIGTrr.jpg",
+    "images/sleepytime_gorilla_museumIGTrrr.jpg"
   ],
   "label" : "The End",
   "title" : "In Glorious Times",

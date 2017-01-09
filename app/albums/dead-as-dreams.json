@@ -1,8 +1,12 @@
 {
   "albumId" : "dead-as-dreams",
   "artist" : "Weakling",
+  "availability" : false,
   "images" : [
-    "images/weaklingDD.jpg"
+    "images/weaklingDD.jpg",
+    "images/weaklingDDr.jpg",
+    "images/weaklingDDrr.jpg",
+    "images/weaklingDDrrr.jpg"
   ],
   "label" : "Tumult",
   "trackList" : [

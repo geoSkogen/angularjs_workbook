@@ -1,8 +1,12 @@
 {
   "albumId" : "obscura",
   "artist" : "Gorguts",
+  "availability" : true,
   "images" : [
-    "images/gorgutsO.jpg"
+    "images/gorgutsO.jpg",
+    "images/gorgutsOr.jpg",
+    "images/gorgutsOrr.jpg",
+    "images/gorgutsOrrr.jpg"
   ],
   "label" : "Olympic",
   "trackList" : [

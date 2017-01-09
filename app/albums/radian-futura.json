@@ -1,8 +1,12 @@
 {
   "albumId" : "radian-futura",
   "artist" : "Upsilon Acrux",
+  "availability" : true,
   "images" : [
-    "images/upsilon_acruxRF.jpg"
+    "images/upsilon_acruxRF.jpg",
+    "images/upsilon_acruxRFr.jpg",
+    "images/upsilon_acruxRFrr.jpg",
+    "images/upsilon_acruxRFrrr.jpg"
   ],
   "label" : "Cuneiform",
   "title" : "Radian Futura",

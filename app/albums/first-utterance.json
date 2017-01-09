@@ -1,7 +1,11 @@
 { "albumId" : "first-utterance",
   "artist" : "Comus",
+  "availability" : false,
   "images" : [
-    "images/comusFU.jpg"
+    "images/comusFU.jpg",
+    "images/comusFU.jpgr",
+    "images/comusFU.jpgrr",
+    "images/comusFU.jpgrrr"
   ],
   "label" : "Dawn",
   "trackList" : [
