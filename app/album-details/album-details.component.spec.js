@@ -4,10 +4,18 @@ describe('albumDetails', function () {
 
   describe('albumDetailsController', function () {
    var $httpBackend, ctrl;
-
+   var albumData = {
+     title: 'Obscura',
+     images : [
+       'images/gorgutsO.jpg',
+       'images/gorgutsOr.jpg',
+       'images/gorgutsOrr.jpg',
+       'images/gorgutsOrrr.jpg'
+     ]
+   };
    beforeEach(inject(function ($componentController,_$httpBackend_,$routeParams) {
      $httpBackend = _$httpBackend_;
-     $httpBackend.expectGet('albums/obscura.json').respond({title: 'Obscura'});
+     $httpBackend.expectGet('albums/obscura.json').respond(phoneData);
      $routeParams.albumId = 'obscura';
      ctrl = $componentController('albumDetailsController');
    }));
@@ -16,7 +24,7 @@ describe('albumDetails', function () {
      expect(ctrl.album).toBeUndefined();
 
      $httpBackend.flush();
-     expect(ctr.album).toEqual({title: 'Obscura'});
+     expect(ctrl.album).toEqual(albumData);
    });
   });
 });

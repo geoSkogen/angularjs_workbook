@@ -87,7 +87,8 @@ input {
     margin:  0.75em;
 }
 
-img.thumb {
+img.thumb,
+img.thumbC {
     height:  75px;
     width:  75px;
 }
