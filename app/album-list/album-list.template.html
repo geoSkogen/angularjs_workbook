@@ -1,36 +1,36 @@
-<div class="flexOuterLeft">
-  <div class="flexInnerMinor">
-    <span>search:</span><br/>
-    <input type="text" ng-model="$ctrl.query"/><br/>
-    <span>sort by:</span>
-    <select ng-model="$ctrl.orderSel">
+<div class="flexOuterCenter">
+  <div class="flexOuterRight">
+    <div class="flexInnerMinor">
+      <span>search:</span><br/>
+      <input type="text" ng-model="$ctrl.query"/><br/>
+      <span>sort by:</span>
+      <select ng-model="$ctrl.orderSel">
         <option value="title">alphabetical - title</option>
         <option value="artist">alphabetical - artist</option>
         <option value="year">chronological</option>
-    </select>
-  </div>
-  <div class="flexInnerMajor">
-   <!-- <div class="columnar"> -->
-   <div class="flexOuterCenter">
-    <ul ng-repeat="album in $ctrl.albums | filter: $ctrl.query | orderBy: $ctrl.orderSel">
+      </select>
+    </div>
+    <div class="flexInnerMajor">
+      <div>
+        <ul class="repeater" ng-repeat="album in $ctrl.albums | filter: $ctrl.query | orderBy: $ctrl.orderSel">
  <!--$ctrl is the default alias of this component's controller instance-->
-      <li class="liOuter" >
-       <div class="liInner">
-          <a href="#!/albums/{{ album.albumId }}" class="thumbLink">
-            <img ng-src="{{ album.imgUrl }}" alt="{{ album.title }}" class="thumb"/><br/>
-          </a>
-        </div>
-        <div class="liInner">
-          <a href="#!/albums/{{ album.albumId }}" class="titleLink">
-            <span class="linky">{{ album.title }}</span>
-          </a>
-          <p class="artist">{{ album.artist }}</p>
-          <p class="infoC">{{ album.year }}</p>
-          <p class="infoC">{{ album.label }}</p>
-        </div>
-      </li>
-    </ul>
-  </div>
-  <!-- </div> -->
+          <li class="liOuter">
+            <div class="liInner">
+              <a href="#!/albums/{{ album.albumId }}" class="thumbLink">
+                <img ng-src="{{ album.imgUrl }}" alt="{{ album.title }}" class="thumb"/><br/>
+              </a>
+            </div>
+            <div class="liInner">
+              <a href="#!/albums/{{ album.albumId }}" class="titleLink">
+                <span class="linky">{{ album.title }}</span>
+              </a>
+              <p class="artist">{{ album.artist }}</p>
+              <p class="infoC">{{ album.year }}</p>
+              <p class="infoC">{{ album.label }}</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>

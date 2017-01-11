@@ -1,0 +1,60 @@
+.repeater.ng-enter,
+.repeater.ng-leave,
+.repeater.ng-move {
+  transition: 0.5s linear all;
+}
+
+.repeater.ng-enter,
+.repeater.ng-move {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.repeater.ng-enter.ng-enter-active,
+.repeater.ng-move.ng-move-active {
+  height: 9em;
+  opacity: 1;
+}
+
+.repeater.ng-leave {
+   opacity: 1;
+   overflow: hidden;
+ }
+
+.repeater.ng-leave.ng-leave-active {
+   height: 0;
+   opacity: 0;
+   padding-bottom: 0;
+   padding-top: 0;
+}
+
+.viewContainer {
+  position: relative;
+}
+
+.viewContainer.ng-enter,
+.viewContainer.ng-leave {
+  background: white;
+  position: absolute;
+}
+
+.viewFrame.ng-enter {
+  animation: 0.75s fade-in;
+  z-index: 100;
+}
+
+.viewFrame.ng-leave {
+  animation: 0.75s fade-out;
+  z-index: 99;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
