@@ -1,1 +1,1 @@
-angular.module('albumList', []);
+angular.module('albumList', ['core.album']);

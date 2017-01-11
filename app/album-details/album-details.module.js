@@ -1,1 +1,1 @@
-angular.module("albumDetails", ['ngRoute']);
+angular.module("albumDetails", ['ngRoute', 'core.album']);
