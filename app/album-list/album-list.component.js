@@ -1,6 +1,13 @@
 
-angular.module("albumList").component('albumList', {
+angular.
+module("albumList").
+component('albumList', {
   templateUrl: 'album-list/album-list.template.html',
+  controller: ['Album', function albumListController(Album) {
+    this.albums = Album.query();
+  }]
+
+  /*
   controller: ['$http', function albumListController($http) {
         var self = this;
         //self.orderSel = "year";
@@ -9,14 +16,16 @@ angular.module("albumList").component('albumList', {
         });
        }
       ]
-
+*/
 
 
     //this adds data to an instance of controller rather than to a scope;
     //this is what's known as an isolate scope
     //put the data in a JSON file
     //don't do this:
-  /*  controller: function albumListController() {
+
+/*
+    controller: function albumListController() {
         this.albums = [
         { artist: "Upsilon Acrux", title: "Radian Futura", year: 2009, label: "Cuneiform", imgUrl: "images/upsilon_acruxRF.jpg", albumId: "radian-futura" },
         { artist: "Secret Chiefs 3", title: "Book of Horizons", year: 2004, label: "Web of Mimicry", imgUrl: "images/secret_chiefs_3BH.jpg", albumId: "book-of-horizons" },
@@ -33,7 +42,8 @@ angular.module("albumList").component('albumList', {
         { artist: "Gorguts", title: "Obscura", year: 1998, label: "Olympic", imgUrl: "images/gorgutsO.jpg", albumId: "obscura"  },
         { artist: "Genesis", title: "Nursery Cryme", year: 1971, label: "Charisma", imgUrl: "images/genesisNC.jpeg", albumId: "nursery-cryme" }
         ];
-    }*/
+    }
+  */
 });
 
 //document.getElementById("testMe").innerHTML = "angular";
