@@ -6,11 +6,12 @@ angular.module("listCompApp").config(['$locationProvider', '$routeProvider',
         $routeProvider.
           when('/', {
               templateUrl: 'landing-page.html'
+		          //templateUrl: 'searchusers.html'
           }).
           when('/albums', {
               template: '<album-list></album-list>'
           }).
-          //vars defined with prefix ':' are extracted into $routeParams 
+          //vars defined with prefix ':' are extracted into $routeParams
           when('/albums/:albumId', {
               template: '<album-details></album-details>'
           }).

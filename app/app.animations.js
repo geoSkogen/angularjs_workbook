@@ -36,7 +36,7 @@ angular.
           top: -250
         }, done;);
 
-      return function animateOutEnd(wasCenceled) {
+      return function animateOutEnd(wasCanceled) {
         if (wasCanceled) element.stop();
       };
     }
