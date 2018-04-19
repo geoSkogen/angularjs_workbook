@@ -1,4 +1,4 @@
-#Example Angular Catalog Page
+# Example Angular Catalog Page
 ## prerequisites
 ### current Node.js installation
 ### current npm installation
